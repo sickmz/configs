@@ -160,8 +160,7 @@
 
 .tab {
   border-radius: 3px !important;
-  margin: 0 2px !important;
-  padding-top: 2px !important;
+  margin-right: 2px !important;
   border: 1px solid #313244 !important;
   background-color: #1e1e2e !important;
   align-items: center !important;
@@ -175,14 +174,10 @@
   align-items: center;
 }
 
-.tab .tab-label {
-  line-height: 27px !important;
-}
-
 .tabs-container {
   height: auto !important;
-  padding: 3px 5px !important;
-}
+  margin-left: 2px;
+}*/
 
  /*!--------------------------------------------------------
   * End custom UI changes
