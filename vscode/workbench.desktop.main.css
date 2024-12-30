@@ -85,3 +85,105 @@
 .decorationsOverviewRuler {
   width: 5px !important;
 }
+
+ /* === Tooltips and Suggestions === */
+
+.monaco-editor-hover,
+.monaco-hover,
+.suggest-widget,
+.suggest-details,
+.editor-widget {
+  z-index: 100;
+  border: 1px solid #89b4fa !important;
+  border-radius: 3px !important;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.45) !important;
+  padding: 8px !important;
+}
+
+.suggest-widget .monaco-list-row.focused {
+  background: #4f5971 !important;
+}
+
+/* === Command palette === */
+
+.quick-input-widget {
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+  z-index: 100;
+  border: 2px solid #89b4fa !important;
+  border-radius: 6px !important;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.45) !important;
+  padding: 8px !important;
+}
+
+.quick-input-widget .monaco-inputbox {
+  border: 2px solid #89b4fa !important;
+  padding: 5px !important;
+  border-radius: 6px !important;
+}
+
+/* === Notifications === */
+.notifications-toasts .monaco-list-row:hover {
+  background: none !important;
+}
+
+/* === Editor widget === */
+.editor-widget.find-widget.visible {
+  height: fit-content !important;
+  align-content: center !important;
+  border: 1px solid #89b4fa !important;
+  border-radius: 3px !important;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.45) !important;
+  padding: 8px !important;
+}
+.find-part {
+  margin-right: 25px !important;
+}
+.button.codicon.codicon-widget-close {
+  margin: auto !important;
+  top: 12px !important;
+}
+
+/* === Project titlebar === */
+.part.titlebar > .titlebar-container > .titlebar-center > .window-title {
+  display: none !important;
+}
+.command-center-center {
+  border: none !important;
+  background: transparent !important;
+}
+
+/* === Editor tabs === */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
+  display: none !important;
+}
+
+.tab {
+  border-radius: 3px !important;
+  margin: 0 2px !important;
+  padding-top: 2px !important;
+  border: 1px solid #313244 !important;
+  background-color: #1e1e2e !important;
+  align-items: center !important;
+}
+.tab.active {
+  font-weight: 600 !important;
+  border: 1px solid #89b4fa !important;
+}
+.tab .monaco-icon-label {
+  height: 100% !important;
+  align-items: center;
+}
+
+.tab .tab-label {
+  line-height: 27px !important;
+}
+
+.tabs-container {
+  height: auto !important;
+  padding: 3px 5px !important;
+}
+
+ /*!--------------------------------------------------------
+  * End custom UI changes
+  *--------------------------------------------------------*/
