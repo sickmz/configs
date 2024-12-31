@@ -1,22 +1,7 @@
- /*!--------------------------------------------------------
+  /*!--------------------------------------------------------
   * Start custom UI changes
   *--------------------------------------------------------*/
  
- /* === Activity Bar === */
- .composite-bar-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-.actions-container .action-item.icon {
-  margin-right: 6px !important;
-}
-.actions-container .action-item.icon a.action-label {
-  font-size: 20px !important;
-}
-
  /* === Explorer === */
  
  /* Remove color from explorer background label */
@@ -44,7 +29,6 @@
 
 /* === Status bar === */
 
-/*Left */
 #status\.host {
   font-weight: 600 !important;
 }
@@ -54,16 +38,12 @@
   font-weight: 600 !important;
 }
 
-/* Right */
+
 #status\.editor\.selection {
   background: #89b4fa !important;
   color: #1e1e2e !important;
   font-weight: 600 !important;
   text-transform: lowercase !important;
-}
-#status\.notifications {
-  background: #a6da95 !important;
-  color: #1e1e2e !important;
 }
 
 #status\.editor\.mode {
@@ -71,6 +51,12 @@
   color: #1e1e2e !important;
   font-weight: 600 !important;
 }
+  #status\.notifications {
+  background: #a6da95 !important;
+  color: #1e1e2e !important;
+  font-weight: 600 !important;
+}
+
 .monaco-workbench .part.statusbar>.items-container>.statusbar-item.right.last-visible-item {
 	margin-right: unset !important;
 }
